@@ -1,4 +1,38 @@
 .container {
   display: flex;
+  flex-direction: column;
 }
-/* update */
+h2 {
+  color: green;
+  font-style: italic;
+}
+
+.body {
+  border-style: solid;
+}
+.footer {
+  border-color: black;
+  border-style: solid;
+}
+.portraits {
+  border-radius: 50px;
+}
+body {
+  background-image: url("images/technology.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.people-working {
+  color: pink;
+}
+h3 {
+  color: orange;
+}
+h4 {
+  color: red;
+}
+
+.footer {
+  align-items: center;
+  flex-direction: row;
+}
